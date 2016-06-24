@@ -1,11 +1,11 @@
 /**
  * Plugin: jquery.zWeatherFeed
- * 
+ *
  * Version: 1.3.1
  * (c) Copyright 2011-2015, Zazar Ltd
- * 
+ *
  * Description: jQuery plugin for display of Yahoo! Weather feeds
- * 
+ *
  * History:
  * 1.3.1 - Forecast day option and background image code fix (credit to Romiko)
  * 1.3.0 - Added refresh timer
@@ -25,8 +25,8 @@
 
 (function($){
 
-	$.fn.weatherfeed = function(locations, options, fn) {	
-	
+	$.fn.weatherfeed = function(locations, options, fn) {
+
 		// Set plugin defaults
 		var defaults = {
 			unit: 'c',
@@ -45,14 +45,14 @@
 			linktarget: '_self',
 			woeid: false,
 			refresh: 0
-		};  
-		var options = $.extend(defaults, options); 
+		};
+		var options = $.extend(defaults, options);
 		var row = 'odd';
 
 		// Functions
 		return this.each(function(i, e) {
 			var $e = $(e);
-			
+
 			// Add feed class to user div
 			if (!$e.hasClass('weatherFeed')) $e.addClass('weatherFeed');
 
@@ -74,19 +74,19 @@
 
 			// Select location ID type
 			var queryType = options.woeid ? 'woeid' : 'location';
-					
+
 			// Create Yahoo Weather feed API address
             // IMPORTANT: Updating locationid with cityname since the Yahoo api changed which caused this widget to crash
 			// Old: var query = "select * from weather.forecast where "+ queryType +" in ("+ locationid +") and u='"+ options.unit +"'";
 			var query = "select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="+ locationid + ") and u='"+ options.unit +"'";
-			var api = 'http://query.yahooapis.com/v1/public/yql?q='+ encodeURIComponent(query) +'&rnd='+ now.getFullYear() + now.getMonth() + now.getDay() + now.getHours() +'&format=json&callback=?';
+			var api = 'https://query.yahooapis.com/v1/public/yql?q='+ encodeURIComponent(query) +'&rnd='+ now.getFullYear() + now.getMonth() + now.getDay() + now.getHours() +'&format=json&callback=?';
 
 			// Request feed data
 			sendRequest(query, api, options);
 
 			if (options.refresh > 0) {
 
-				// Set timer interval for scrolling		
+				// Set timer interval for scrolling
 				var interval = setInterval(function(){ sendRequest(query, api, options); }, options.refresh * 60000);
 			}
 
@@ -106,18 +106,18 @@
 					success: function(data) {
 
 						if (data.query) {
-			
+
 							if (data.query.results.channel.length > 0 ) {
-							
+
 								// Multiple locations
 								var result = data.query.results.channel.length;
 								for (var i=0; i<result; i++) {
-							
+
 									// Create weather feed item
 									_process(e, data.query.results.channel[i], options);
 								}
 							} else {
-	
+
 								// Single location only
 								_process(e, data.query.results.channel, options);
 							}
@@ -132,9 +132,9 @@
 					error: function(data) {
 						if (options.showerror) $e.html('<p>Weather request failed</p>');
 					}
-				});				
+				});
 			};
-		
+
 			// Function to each feed item
 			var _process = function(e, feed, options) {
 				var $e = $(e);
@@ -146,7 +146,7 @@
 					var wd = feed.wind.direction;
 					if (wd>=348.75&&wd<=360){wd="N"};if(wd>=0&&wd<11.25){wd="N"};if(wd>=11.25&&wd<33.75){wd="NNE"};if(wd>=33.75&&wd<56.25){wd="NE"};if(wd>=56.25&&wd<78.75){wd="ENE"};if(wd>=78.75&&wd<101.25){wd="E"};if(wd>=101.25&&wd<123.75){wd="ESE"};if(wd>=123.75&&wd<146.25){wd="SE"};if(wd>=146.25&&wd<168.75){wd="SSE"};if(wd>=168.75&&wd<191.25){wd="S"};if(wd>=191.25 && wd<213.75){wd="SSW"};if(wd>=213.75&&wd<236.25){wd="SW"};if(wd>=236.25&&wd<258.75){wd="WSW"};if(wd>=258.75 && wd<281.25){wd="W"};if(wd>=281.25&&wd<303.75){wd="WNW"};if(wd>=303.75&&wd<326.25){wd="NW"};if(wd>=326.25&&wd<348.75){wd="NNW"};
 					var wf = feed.item.forecast[0];
-		
+
 					// Determine day or night image
 					wpd = feed.item.pubDate;
 					n = wpd.indexOf(":");
@@ -161,13 +161,13 @@
 					var html = '<div class="weatherItem '+ row +' '+ daynight +'"';
 					if (options.image) html += ' style="background-image: url(http://l.yimg.com/a/i/us/nws/weather/gr/'+ feed.item.condition.code.substring(0,2) + daynight.substring(0,1) +'.png); background-repeat: no-repeat;"';
 					html += '>';
-		
+
 					// Add item data
 					html += '<div class="weatherCity">'+ feed.location.city +'</div>';
 					if (options.country) html += '<div class="weatherCountry">'+ feed.location.country +'</div>';
 					html += '<div class="weatherTemp">'+ feed.item.condition.temp +'&deg;</div>';
 					html += '<div class="weatherDesc">'+ feed.item.condition.text +'</div>';
-				
+
 					// Add optional data
 					if (options.highlow) html += '<div class="weatherRange">High: '+ wf.high +'&deg; Low: '+ wf.low +'&deg;</div>';
 					if (options.wind) html += '<div class="weatherWind">Wind: '+ wd +' '+ feed.wind.speed + feed.units.speed +'</div>';
@@ -215,7 +215,7 @@
 
 			// Get time string as date
 			var _getTimeAsDate = function(t) {
-		
+
 				d = new Date();
 				r = new Date(d.toDateString() +' '+ t);
 

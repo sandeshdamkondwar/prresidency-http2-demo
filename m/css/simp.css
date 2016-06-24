@@ -3,10 +3,10 @@
 *	GENERAL
 *
 **************************/
-.camera_wrap a, .camera_wrap img, 
+.camera_wrap a, .camera_wrap img,
 .camera_wrap ol, .camera_wrap ul, .camera_wrap li,
 .camera_wrap table, .camera_wrap tbody, .camera_wrap tfoot, .camera_wrap thead, .camera_wrap tr, .camera_wrap th, .camera_wrap td
-.camera_thumbs_wrap a, .camera_thumbs_wrap img, 
+.camera_thumbs_wrap a, .camera_thumbs_wrap img,
 .camera_thumbs_wrap ol, .camera_thumbs_wrap ul, .camera_thumbs_wrap li,
 .camera_thumbs_wrap table, .camera_thumbs_wrap tbody, .camera_thumbs_wrap tfoot, .camera_thumbs_wrap thead, .camera_thumbs_wrap tr, .camera_thumbs_wrap th, .camera_thumbs_wrap td {
 	background: none;
@@ -1857,297 +1857,297 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
        ========================================================================== */
 @font-face {
   font-family: 'Great Vibes', cursive;
-  src: url('http://cdn.simplotel.com/fonts/greatvibes-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/greatvibes-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/greatvibes-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/greatvibes-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/greatvibes-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/greatvibes-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Dancing Script', cursive;
-  src: url('http://cdn.simplotel.com/fonts/dancingscript-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/dancingscript-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/dancingscript-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/dancingscript-regular-webfont.svg#dancing_scriptregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/dancingscript-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/dancingscript-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/dancingscript-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/dancingscript-regular-webfont.svg#dancing_scriptregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Dancing Script', cursive;
-  src: url('http://cdn.simplotel.com/fonts/dancingscript-bold-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/dancingscript-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/dancingscript-bold-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/dancingscript-bold-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/dancingscript-bold-webfont.svg#dancing_scriptbold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/dancingscript-bold-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/dancingscript-bold-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/dancingscript-bold-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/dancingscript-bold-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/dancingscript-bold-webfont.svg#dancing_scriptbold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Kaushan Script', cursive;
-  src: url('http://cdn.simplotel.com/fonts/kaushanscript-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/kaushanscript-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/kaushanscript-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/kaushanscript-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/kaushanscript-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/kaushanscript-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Pacifico', cursive;
-  src: url('http://cdn.simplotel.com/fonts/pacifico-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/pacifico-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/pacifico-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/pacifico-webfont.svg#pacificoregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/pacifico-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/pacifico-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/pacifico-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/pacifico-webfont.svg#pacificoregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Merriweather';
-  src: url('http://cdn.simplotel.com/fonts/merriweather-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/merriweather-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/merriweather-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/merriweather-regular-webfont.svg#merriweatherregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/merriweather-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/merriweather-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/merriweather-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/merriweather-regular-webfont.svg#merriweatherregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Merriweather';
-  src: url('http://cdn.simplotel.com/fonts/merriweather-bold-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/merriweather-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/merriweather-bold-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/merriweather-bold-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/merriweather-bold-webfont.svg#merriweatherbold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/merriweather-bold-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/merriweather-bold-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/merriweather-bold-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/merriweather-bold-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/merriweather-bold-webfont.svg#merriweatherbold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Oranienbaum', serif;
-  src: url('http://cdn.simplotel.com/fonts/oranienbaum-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/oranienbaum-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/oranienbaum-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/oranienbaum-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/oranienbaum-regular-webfont.svg#Oranienbaum') format('svg');
+  src: url('//cdn.simplotel.com/fonts/oranienbaum-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/oranienbaum-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/oranienbaum-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/oranienbaum-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/oranienbaum-regular-webfont.svg#Oranienbaum') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Signika', sans-serif;
-  src: url('http://cdn.simplotel.com/fonts/signika-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/signika-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/signika-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/signika-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/signika-regular-webfont.svg#Signika') format('svg');
+  src: url('//cdn.simplotel.com/fonts/signika-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/signika-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/signika-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/signika-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/signika-regular-webfont.svg#Signika') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'titillium_webregular';
-  src: url('http://cdn.simplotel.com/fonts/titilliumweb-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/titilliumweb-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/titilliumweb-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/titilliumweb-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/titilliumweb-regular-webfont.svg#titillium_webregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/titilliumweb-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/titilliumweb-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/titilliumweb-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/titilliumweb-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/titilliumweb-regular-webfont.svg#titillium_webregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'titillium_websemibold';
-  src: url('http://cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.svg#titillium_websemibold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/titilliumweb-semibold-webfont.svg#titillium_websemibold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Adamina';
-  src: url('http://cdn.simplotel.com/fonts/adamina-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/adamina-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/adamina-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/adamina-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/adamina-regular-webfont.svg#Adamina') format('svg');
+  src: url('//cdn.simplotel.com/fonts/adamina-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/adamina-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/adamina-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/adamina-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/adamina-regular-webfont.svg#Adamina') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Alike';
-  src: url('http://cdn.simplotel.com/fonts/alike-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/alike-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/alike-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/alike-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/alike-regular-webfont.svg#Alike') format('svg');
+  src: url('//cdn.simplotel.com/fonts/alike-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/alike-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/alike-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/alike-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/alike-regular-webfont.svg#Alike') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Amaranth';
-  src: url('http://cdn.simplotel.com/fonts/amaranth-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/amaranth-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/amaranth-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/amaranth-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/amaranth-regular-webfont.svg#Amaranth') format('svg');
+  src: url('//cdn.simplotel.com/fonts/amaranth-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/amaranth-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/amaranth-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/amaranth-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/amaranth-regular-webfont.svg#Amaranth') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Amethysta';
-  src: url('http://cdn.simplotel.com/fonts/amethysta-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/amethysta-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/amethysta-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/amethysta-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/amethysta-regular-webfont.svg#Amethysta') format('svg');
+  src: url('//cdn.simplotel.com/fonts/amethysta-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/amethysta-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/amethysta-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/amethysta-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/amethysta-regular-webfont.svg#Amethysta') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Arvo';
-  src: url('http://cdn.simplotel.com/fonts/arvo-regular_201-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/arvo-regular_201-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/arvo-regular_201-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/arvo-regular_201-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/arvo-regular_201-webfont.svg#Arvo') format('svg');
+  src: url('//cdn.simplotel.com/fonts/arvo-regular_201-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/arvo-regular_201-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/arvo-regular_201-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/arvo-regular_201-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/arvo-regular_201-webfont.svg#Arvo') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Brawler';
-  src: url('http://cdn.simplotel.com/fonts/brawler-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/brawler-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/brawler-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/brawler-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/brawler-regular-webfont.svg#Brawler') format('svg');
+  src: url('//cdn.simplotel.com/fonts/brawler-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/brawler-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/brawler-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/brawler-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/brawler-regular-webfont.svg#Brawler') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bitter';
-  src: url('http://cdn.simplotel.com/fonts/bitter-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/bitter-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/bitter-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/bitter-regular-webfont.svg#Bitter') format('svg');
+  src: url('//cdn.simplotel.com/fonts/bitter-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/bitter-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/bitter-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/bitter-regular-webfont.svg#Bitter') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Bree Serif';
-  src: url('http://cdn.simplotel.com/fonts/breeserif-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/breeserif-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/breeserif-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/breeserif-regular-webfont.svg#Bree Serif') format('svg');
+  src: url('//cdn.simplotel.com/fonts/breeserif-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/breeserif-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/breeserif-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/breeserif-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/breeserif-regular-webfont.svg#Bree Serif') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Cambo';
-  src: url('http://cdn.simplotel.com/fonts/cambo-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/cambo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/cambo-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/cambo-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/cambo-regular-webfont.svg#Cambo') format('svg');
+  src: url('//cdn.simplotel.com/fonts/cambo-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/cambo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/cambo-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/cambo-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/cambo-regular-webfont.svg#Cambo') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Cantora One';
-  src: url('http://cdn.simplotel.com/fonts/cantoraone-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/cantoraone-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/cantoraone-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/cantoraone-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/cantoraone-regular-webfont.svg#Cantora One') format('svg');
+  src: url('//cdn.simplotel.com/fonts/cantoraone-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/cantoraone-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/cantoraone-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/cantoraone-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/cantoraone-regular-webfont.svg#Cantora One') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Caudex';
-  src: url('http://cdn.simplotel.com/fonts/caudex-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/caudex-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/caudex-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/caudex-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/caudex-regular-webfont.svg#caudex') format('svg');
+  src: url('//cdn.simplotel.com/fonts/caudex-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/caudex-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/caudex-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/caudex-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/caudex-regular-webfont.svg#caudex') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Domine';
-  src: url('http://cdn.simplotel.com/fonts/domine-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/domine-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/domine-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/domine-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/domine-regular-webfont.svg#Domine') format('svg');
+  src: url('//cdn.simplotel.com/fonts/domine-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/domine-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/domine-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/domine-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/domine-regular-webfont.svg#Domine') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Doppio One';
-  src: url('http://cdn.simplotel.com/fonts/doppioone-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/doppioone-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/doppioone-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/doppioone-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/doppioone-regular-webfont.svg#Doppio One') format('svg');
+  src: url('//cdn.simplotel.com/fonts/doppioone-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/doppioone-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/doppioone-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/doppioone-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/doppioone-regular-webfont.svg#Doppio One') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Droid Sans';
-  src: url('http://cdn.simplotel.com/fonts/droidsans-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/droidsans-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/droidsans-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/droidsans-webfont.svg#Droid Sans') format('svg');
+  src: url('//cdn.simplotel.com/fonts/droidsans-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/droidsans-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/droidsans-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/droidsans-webfont.svg#Droid Sans') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Droid Serif';
-  src: url('http://cdn.simplotel.com/fonts/droidserif-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/droidserif-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/droidserif-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/droidserif-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/droidserif-webfont.svg#Droid Serif') format('svg');
+  src: url('//cdn.simplotel.com/fonts/droidserif-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/droidserif-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/droidserif-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/droidserif-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/droidserif-webfont.svg#Droid Serif') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Inika';
-  src: url('http://cdn.simplotel.com/fonts/inika-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/inika-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/inika-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/inika-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/inika-regular-webfont.svg#Inika') format('svg');
+  src: url('//cdn.simplotel.com/fonts/inika-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/inika-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/inika-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/inika-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/inika-regular-webfont.svg#Inika') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Lato';
-  src: url('http://cdn.simplotel.com/fonts/lato-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/lato-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/lato-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/lato-regular-webfont.svg#Lato') format('svg');
+  src: url('//cdn.simplotel.com/fonts/lato-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/lato-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/lato-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/lato-regular-webfont.svg#Lato') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ITCKabelStd-Bold';
-  src: url('http://cdn.simplotel.com/fonts/ITCKabelStd-Bold.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Bold.otf') format('opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Bold.woff') format('woff'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Bold.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Bold.svg#ITCKabelStd-Bold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/ITCKabelStd-Bold.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Bold.otf') format('opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Bold.woff') format('woff'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Bold.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Bold.svg#ITCKabelStd-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ITCKabelStd-Book';
-  src: url('http://cdn.simplotel.com/fonts/ITCKabelStd-Book.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Book.otf') format('opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Book.woff') format('woff'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Book.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Book.svg#ITCKabelStd-Book') format('svg');
+  src: url('//cdn.simplotel.com/fonts/ITCKabelStd-Book.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Book.otf') format('opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Book.woff') format('woff'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Book.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Book.svg#ITCKabelStd-Book') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ITCKabelStd-Demi';
-  src: url('http://cdn.simplotel.com/fonts/ITCKabelStd-Demi.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Demi.otf') format('opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Demi.woff') format('woff'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Demi.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Demi.svg#ITCKabelStd-Demi') format('svg');
+  src: url('//cdn.simplotel.com/fonts/ITCKabelStd-Demi.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Demi.otf') format('opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Demi.woff') format('woff'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Demi.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Demi.svg#ITCKabelStd-Demi') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ITCKabelStd-Medium';
-  src: url('http://cdn.simplotel.com/fonts/ITCKabelStd-Medium.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Medium.otf') format('opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Medium.woff') format('woff'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Medium.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Medium.svg#ITCKabelStd-Medium') format('svg');
+  src: url('//cdn.simplotel.com/fonts/ITCKabelStd-Medium.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Medium.otf') format('opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Medium.woff') format('woff'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Medium.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Medium.svg#ITCKabelStd-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'ITCKabelStd-Ultra';
-  src: url('http://cdn.simplotel.com/fonts/ITCKabelStd-Ultra.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Ultra.otf') format('opentype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Ultra.woff') format('woff'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Ultra.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/ITCKabelStd-Ultra.svg#ITCKabelStd-Ultra') format('svg');
+  src: url('//cdn.simplotel.com/fonts/ITCKabelStd-Ultra.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Ultra.otf') format('opentype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Ultra.woff') format('woff'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Ultra.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/ITCKabelStd-Ultra.svg#ITCKabelStd-Ultra') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'texgyreheroes';
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-bold-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/texgyreheros-bold-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/texgyreheros-bold-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/texgyreheros-bold-webfont.svg#texgyreherosbold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-bold-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-bold-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/texgyreheros-bold-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/texgyreheros-bold-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/texgyreheros-bold-webfont.svg#texgyreherosbold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'texgyreheroes';
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.svg#texgyreherosbold_italic') format('svg');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/texgyreheros-bolditalic-webfont.svg#texgyreherosbold_italic') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'texgyreheroes';
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-italic-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-italic-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/texgyreheros-italic-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/texgyreheros-italic-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/texgyreheros-italic-webfont.svg#texgyreherositalic') format('svg');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-italic-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-italic-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/texgyreheros-italic-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/texgyreheros-italic-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/texgyreheros-italic-webfont.svg#texgyreherositalic') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'texgyreheroes';
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/texgyreheros-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/texgyreheros-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/texgyreheros-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/texgyreheros-regular-webfont.svg#texgyreherosregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/texgyreheros-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/texgyreheros-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/texgyreheros-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/texgyreheros-regular-webfont.svg#texgyreherosregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'eb_garamondregular';
-  src: url('http://cdn.simplotel.com/fonts/ebgaramond-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/ebgaramond-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/ebgaramond-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/ebgaramond-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/ebgaramond-regular-webfont.svg#eb_garamondregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/ebgaramond-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/ebgaramond-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/ebgaramond-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/ebgaramond-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/ebgaramond-regular-webfont.svg#eb_garamondregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url('http://cdn.simplotel.com/fonts/opensans-light-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/opensans-light-webfont.woff2') format('woff2'), url('http://cdn.simplotel.com/fonts/opensans-light-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/opensans-light-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+  src: url('//cdn.simplotel.com/fonts/opensans-light-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/opensans-light-webfont.woff2') format('woff2'), url('//cdn.simplotel.com/fonts/opensans-light-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/opensans-light-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url('http://cdn.simplotel.com/fonts/opensans-regular-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/opensans-regular-webfont.woff2') format('woff2'), url('http://cdn.simplotel.com/fonts/opensans-regular-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/opensans-regular-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  src: url('//cdn.simplotel.com/fonts/opensans-regular-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/opensans-regular-webfont.woff2') format('woff2'), url('//cdn.simplotel.com/fonts/opensans-regular-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/opensans-regular-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url('http://cdn.simplotel.com/fonts/opensans-extrabold-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/opensans-extrabold-webfont.woff2') format('woff2'), url('http://cdn.simplotel.com/fonts/opensans-extrabold-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/opensans-extrabold-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/opensans-extrabold-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/opensans-extrabold-webfont.woff2') format('woff2'), url('//cdn.simplotel.com/fonts/opensans-extrabold-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/opensans-extrabold-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url('http://cdn.simplotel.com/fonts/opensans-semibold-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/opensans-semibold-webfont.woff2') format('woff2'), url('http://cdn.simplotel.com/fonts/opensans-semibold-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/opensans-semibold-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/opensans-semibold-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/opensans-semibold-webfont.woff2') format('woff2'), url('//cdn.simplotel.com/fonts/opensans-semibold-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/opensans-semibold-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: 'Open Sans', sans-serif;
-  src: url('http://cdn.simplotel.com/fonts/opensans-bold-webfont.eot');
-  src: url('http://cdn.simplotel.com/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://cdn.simplotel.com/fonts/opensans-bold-webfont.woff2') format('woff2'), url('http://cdn.simplotel.com/fonts/opensans-bold-webfont.woff') format('woff'), url('http://cdn.simplotel.com/fonts/opensans-bold-webfont.ttf') format('truetype'), url('http://cdn.simplotel.com/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  src: url('//cdn.simplotel.com/fonts/opensans-bold-webfont.eot');
+  src: url('//cdn.simplotel.com/fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('//cdn.simplotel.com/fonts/opensans-bold-webfont.woff2') format('woff2'), url('//cdn.simplotel.com/fonts/opensans-bold-webfont.woff') format('woff'), url('//cdn.simplotel.com/fonts/opensans-bold-webfont.ttf') format('truetype'), url('//cdn.simplotel.com/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
   font-weight: 700;
   font-style: normal;
 }
@@ -6923,7 +6923,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* Body Background Related Variables
    ========================================================================== */
 /*
- * NOTE - if there is a pattern or a gradient image, then only enable body background 
+ * NOTE - if there is a pattern or a gradient image, then only enable body background
  *        for the homepage.
  */
 /* Font Related Variables
@@ -6974,7 +6974,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* ==========================================================================
    All Mobile Variables which should not be touched
    ========================================================================== */
-/*header-pills 
+/*header-pills
     ==============================================================*/
 /*======================================================
 =            Mobile Menu Call Button Option            =
